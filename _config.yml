@@ -1,11 +1,9 @@
-title:       "Vulkan Lessons"
-subtitle:    "Vulkan tutorials and study materials"
+title:       "glcoder's place"
 author:      "Artem Gurevich"
 email:       "gurevichae@gmail.com"
 baseurl:     ""
 url:         "http://glcoder.github.io"
-description: >
-  OpenGL and Vulkan GAPI programming tutorials and study materials.
+description: ""
 
 encoding:      utf-8
 permalink:     pretty

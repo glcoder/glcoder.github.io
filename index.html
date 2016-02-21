@@ -1,10 +1,12 @@
 ---
 layout: default
 ---
-<div class="blog-header">
-  <h1 class="blog-title">{{ site.title }}</h1>
-  <p class="lead blog-description">{{ site.subtitle }}</p>
-</div> <!-- /.blog-header -->
+<div class="panel panel-info">
+  <div class="panel-heading">Links on my works:</div>
+  <div class="panel-body">
+    <a href="{{ '/vklessons' | prepend: site.baseurl }}">Vulkan Lessons</a>
+  </div>
+</div>
 {% for n_post in site.posts %}
 <div class="blog-post">
   <h3>
