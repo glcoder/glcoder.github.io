@@ -11,11 +11,12 @@ encoding:      utf-8
 permalink:     pretty
 paginate_path: /page:num
 timezone:      Europe/Moscow
-markdown:      redcarpet
-highlighter:   none
+markdown:      kramdown
+highlighter:   rouge
 
-redcarpet:
-  extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+kramdown:
+  input:     GFM
+  hard_wrap: false
 
 defaults:
   values:
